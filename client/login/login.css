@@ -1,0 +1,53 @@
+div#msgLoginPage {
+  text-align: center;
+}
+
+div#boxLogin {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+
+  width: fit-content;
+  height: fit-content;
+
+  margin-top: 15px;
+  margin-inline: auto;
+}
+
+input.inputAccount {
+  display: block;
+
+  width: 120px;
+
+  margin-block: 15px;
+}
+
+input.inputAccount::placeholder {
+  text-align: center;
+}
+
+div#inputAccount {
+  text-align: center;
+
+  margin: 15px;
+}
+
+input#submitLogin {
+  margin-top: 10px;
+
+  background-color: thistle;
+
+  border: none;
+
+  width: fit-content;
+  height: fit-content;
+
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-style: oblique;
+
+  cursor: pointer;
+
+  padding: 7px;
+}
